@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.club-selector {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.club-selector h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.club-selector ul {
+  list-style: none;
+  padding: 0;
+}
+
+.club-selector li {
+  margin-bottom: 10px;
+}
+
+.club-selector button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.club-selector button:hover {
+  background-color: #0056b3;
+}
+
+.club-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.club-info img {
+  max-width: 100px;
+  margin: 10px auto;
+}
+
+.club-achievements, .team-squad {
+  margin-top: 20px;
+}
+
+.club-achievements p, .team-squad li {
+  font-size: 16px;
+  color: #555;
+}
